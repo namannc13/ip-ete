@@ -83,7 +83,7 @@ const Login = () => {
 
 	return (
 		<>
-			<PageHeading heading="Login" secondaryHeading="Login to KoronKorko" clamp={false} />
+			<PageHeading heading="Login" secondaryHeading="Login to SilverSavings" clamp={false} />
 
 			<section className="form">
 				<form onSubmit={(e) => onSubmit(e)}>

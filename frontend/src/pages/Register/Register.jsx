@@ -100,7 +100,7 @@ const Register = () => {
 		<>
 			<PageHeading
 				heading="Register"
-				secondaryHeading="Create a KoronKorko account"
+				secondaryHeading="Create a SilverSavings account"
 				clamp={false}
 			/>
 

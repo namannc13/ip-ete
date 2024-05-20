@@ -54,9 +54,8 @@ const Nav = () => {
 		<nav className="navbar">
 			<div className="logo">
 				<Link to="/">
-					<img src={darkMode ? logo_dark : logo_light} alt="logo.jpg" />
 					<p>
-						<span>K</span>oron<span>K</span>orko
+						<span>S</span>ilver<span>S</span>avings
 					</p>
 				</Link>
 			</div>

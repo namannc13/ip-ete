@@ -18,13 +18,8 @@ const Footer = () => {
 			<div className="footer-top">
 				<div className="footer-brand-section">
 					<div className="brand">
-						<img
-							className="footer-logo"
-							src={darkMode ? logo_dark : logo_light}
-							alt="logo"
-						/>
 						<h2>
-							<span>K</span>oron<span>K</span>orko
+							<span>S</span>ilver<span>S</span>avings
 						</h2>
 					</div>
 				</div>
@@ -63,30 +58,6 @@ const Footer = () => {
 					</div>
 					<div className="footer-link-section">
 						<div className="link-header">
-							<h2>Developer</h2>
-						</div>
-						<ul>
-							<Link
-								url="https://www.omarkraidie.com/"
-								text="Omar Kraidié Portfolio"
-							/>
-							<Link
-								url="https://www.goodreads.com/review/list/135003326-0mppu?ref=nav_mybooks&shelf=programming"
-								text="Technology Books"
-							/>
-							<Link
-								url="https://www.koronkorko.com/"
-								text="Project: KoronKorko (Remastered)"
-							/>
-							<Link
-								url="https://moneymapper.vercel.app/"
-								text="Project: Money Mapper"
-							/>
-							<Link url="https://coincaps.netlify.app/" text="Project: CoinCaps" />
-						</ul>
-					</div>
-					<div className="footer-link-section">
-						<div className="link-header">
 							<h2>Other</h2>
 						</div>
 						<ul>
@@ -98,46 +69,6 @@ const Footer = () => {
 						</ul>
 					</div>
 				</div>
-			</div>
-			<div className="footer-bottom">
-				<div className="footer-icons">
-					<Icon
-						url="https://github.com/0mppula"
-						icon={<FaGithub />}
-						ariaLabel="faGithub"
-					/>
-					<Icon
-						url="https://www.linkedin.com/in/omarkraidie/"
-						icon={<FaLinkedin />}
-						ariaLabel="Linkedin"
-					/>
-					<Icon
-						url="mailto:devomarkraidie@gmail.com"
-						icon={<FaEnvelope />}
-						ariaLabel="Email"
-					/>
-					<Icon
-						url="https://github.com/0mppula/KoronKorko"
-						icon={<FaCode />}
-						aria-label="Source code"
-					/>
-				</div>
-
-				<p>
-					Developed by{' '}
-					<a
-						href="https://www.omarkraidie.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Omar Kraidié
-					</a>
-				</p>
-
-				<p>
-					Copyright <span className="copyright">{year}&copy;</span> Lahti, Finland. All
-					Rights Reserved.
-				</p>
 			</div>
 		</div>
 	);

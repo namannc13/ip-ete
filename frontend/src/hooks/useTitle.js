@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 export const useTitle = (title) => {
 	useEffect(() => {
 		const defaultTitle = document.title;
-    const appTitle = 'KoronKorko'
+    const appTitle = 'SilverSavings'
 		title && (document.title = `${title} - ${appTitle}`);
 		// following line is optional, but will reset title when component unmounts
 		return () => (document.title = defaultTitle);
