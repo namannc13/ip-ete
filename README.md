@@ -1,14 +1,12 @@
-# KoronKorko Web-Application
+# SilverSavings Web-Application
 
-KoronKorko is created using the MERN stack with vanilla JavaScript & CSS. A remastered version has been developed using using Next.js, NextAuth, MondoDB, TypeScript and Tailwind CSS.
+SilverSavings is created using the MERN stack with vanilla JavaScript & CSS. A remastered version has been developed using using Next.js, NextAuth, MondoDB, TypeScript and Tailwind CSS.
 
-Check out the remastered version of [KoronKorko][KoronKorkoNew] or its [source code][KoronKorkoCodeNew].
+## What is SilverSavings?
 
-## What is KoronKorko?
+[SilverSavings][0] is a finance web-applicationSilverSavings has different types of finance calculators. All the available calculators are listed below in this `README.md` file.
 
-[KoronKorko][0] is a finance web-application developed by [Omar Kraidié][dev]. KoronKorko has different types of finance calculators. All the available calculators are listed below in this `README.md` file.
-
-The users of KoronKorko can select a currency in which the monetary results of the calculators are printed. The selected currency will be saved either in local storage or in the authenticated users preferences.
+The users of SilverSavings can select a currency in which the monetary results of the calculators are printed. The selected currency will be saved either in local storage or in the authenticated users preferences.
 
 Authenticated users can:
 
@@ -17,7 +15,7 @@ Authenticated users can:
 -   import previously saved calculations
 -   delete previously saved calculations
 
-## Calculators of KoronKorko
+## Calculators of SilverSavings
 
 ### [Compound Interest Calculator][1]
 
@@ -55,13 +53,11 @@ Calculate the difference between the cost and the selling price of your product.
 
 ---
 
-[dev]: https://github.com/0mppula
-[0]: https://koronkorko.herokuapp.com/
-[1]: https://koronkorko.herokuapp.com/compound-interest-calculator
-[2]: https://koronkorko.herokuapp.com/annualized-return-calculator
-[3]: https://koronkorko.herokuapp.com/present-value-calculator
-[4]: https://koronkorko.herokuapp.com/investment-time-calculator
-[5]: https://koronkorko.herokuapp.com/break-even-point-calculator
-[6]: https://koronkorko.herokuapp.com/markup-calculator
-[KoronKorkoNew]: https://www.koronkorko.com/
-[KoronKorkoCodeNew]: https://github.com/0mppula/koronkorko-remastered
+[project]: https://github.com/namannc13/ip-ete
+[0]: https://SilverSavings.herokuapp.com/
+[1]: https://SilverSavings.herokuapp.com/compound-interest-calculator
+[2]: https://SilverSavings.herokuapp.com/annualized-return-calculator
+[3]: https://SilverSavings.herokuapp.com/present-value-calculator
+[4]: https://SilverSavings.herokuapp.com/investment-time-calculator
+[5]: https://SilverSavings.herokuapp.com/break-even-point-calculator
+[6]: https://SilverSavings.herokuapp.com/markup-calculator
