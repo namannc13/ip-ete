@@ -2,74 +2,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-	--clr-base: #855db5;
-	/* Background */
-	--clr-background-L0: #ffffff; /* Body */
-	--clr-background-L1: #fbfbfb; /* Nav, Input(inactive), Footer,  */
-	--clr-background-L2: #f5f8fb; /* Input(active) */
-	--clr-background-L3: #f0f3fb; /* Chart */
-	/* Text */
-	--clr-text-primary: #1b1b1b;
-	--clr-text-secondary: #5f5f5f;
-	--clr-button-text: #fafafa;
-	/* Primary Colors */
-	--clr-primary: #68498d;
-	--clr-primary-opacity-low: #68498d99;
-	--clr-primary-opacity-high: #68498dcc;
-	/* White and Hover */
-	--clr-white: #fafafa;
-	--clr-hover: #f0f0f0;
-	/* Success and Danger */
-	--clr-danger: #ab141c;
-	--clr-success: #096a19;
-	/* Other */
-	--clr-gray: #c9c9c9;
-	--button-box-shadow: inset 0 0px 2px rgba(0, 0, 0, 0.3);
-	--font-main: 'Poppins', sans-serif;
-	--nav-heigth: 3.35rem;
-	--box-shadow: 0px 0px 10px 0px rgb(27 27 27 / 35%);
-	--nav-height: 4rem;
-	--fast-transition: all 0.15s;
-	/* Toast styles */
-	--toastify-color-light: var(--clr-background-L3) !important;
-	--toastify-text-color-light: var(--clr-text-primary) !important;
-	--toastify-icon-color-success: var(--clr-success) !important;
-	--toastify-icon-color-error: var(--clr-danger) !important;
-	--toastify-color-progress-success: var(--clr-success) !important;
-	--toastify-color-progress-error: var(--clr-danger) !important;
+    --clr-base: #855db5;
+    /* Background */
+    --clr-background-L0: #f0f9f4; /* Body */
+    --clr-background-L1: #fbfbfb; /* Nav, Input(inactive), Footer,  */
+    --clr-background-L2: #e0f4ea; /* Input(active) */
+    --clr-background-L3: #f0f3fb; /* Chart */
+    /* Text */
+    --clr-text-primary: #1b1b1b;
+    --clr-text-secondary: #5f5f5f;
+    --clr-button-text: #fafafa;
+    /* Primary Colors */
+    --clr-primary: #2e8b57; /* Greenish color */
+    --clr-primary-opacity-low: rgba(46, 139, 87, 0.6); /* Adjusted opacity for primary color */
+    --clr-primary-opacity-high: rgba(46, 139, 87, 0.8); /* Adjusted opacity for primary color */
+    /* White and Hover */
+    --clr-white: #fafafa;
+    --clr-hover: #f0f0f0;
+    /* Success and Danger */
+    --clr-danger: #ab141c;
+    --clr-success: #096a19;
+    /* Other */
+    --clr-gray: #c9c9c9;
+    --button-box-shadow: inset 0 0px 2px rgba(0, 0, 0, 0.3);
+    --font-main: 'Poppins', sans-serif;
+    --nav-heigth: 3.35rem;
+    --box-shadow: 0px 0px 10px 0px rgb(27 27 27 / 35%);
+    --nav-height: 4rem;
+    --fast-transition: all 0.15s;
+    /* Toast styles */
+    --toastify-color-light: var(--clr-background-L3) !important;
+    --toastify-text-color-light: var(--clr-text-primary) !important;
+    --toastify-icon-color-success: var(--clr-success) !important;
+    --toastify-icon-color-error: var(--clr-danger) !important;
+    --toastify-color-progress-success: var(--clr-success) !important;
+    --toastify-color-progress-error: var(--clr-danger) !important;
 }
 
 .darkmode {
-	/* Background */
-	--clr-background-L0: #1b181f; /* Body */
-	--clr-background-L1: #242128; /* Nav, Search(inactive), Table,  Footer,  */
-	--clr-background-L2: #2b282f; /* Hover table item */
-	--clr-background-L3: #322f36; /* Chart */
-	/* Text */
-	--clr-text-primary: #fafafa;
-	--clr-text-secondary: #aeaeae;
-	--clr-button-text: #1b1b1b;
-	--clr-hover: #353535;
-	/* Primary Colors */
-	--clr-primary: #b69ed3;
-	/* Opacity */
-	--clr-primary-opacity-low: #b69ed399;
-	--clr-primary-opacity-high: #b69ed3bb;
-	/* Success and Danger */
-	--clr-danger: #f96767;
-	--clr-success: #12cc2f;
-	/* Other */
-	--clr-gray: #363636;
-	--button-box-shadow: inset 0 0 2px rgba(200, 200, 200, 0.3);
-	/* Toast styles */
-	--toastify-color-light: var(--clr-background-L3) !important;
-	--toastify-text-color-light: var(--clr-text-primary) !important;
-	--toastify-icon-color-success: var(--clr-success) !important;
-	--toastify-icon-color-error: var(--clr-danger) !important;
-	--toastify-icon-color-info: var(--clr-primary) !important;
-	--toastify-color-progress-success: var(--clr-success) !important;
-	--toastify-color-progress-error: var(--clr-danger) !important;
-	--toastify-color-progress-info: var(--clr-primary) !important;
+    /* Background */
+    --clr-background-L0: #1b181f; /* Body */
+    --clr-background-L1: #242128; /* Nav, Search(inactive), Table,  Footer,  */
+    --clr-background-L2: #2b282f; /* Hover table item */
+    --clr-background-L3: #322f36; /* Chart */
+    /* Text */
+    --clr-text-primary: #fafafa;
+    --clr-text-secondary: #aeaeae;
+    --clr-button-text: #1b1b1b;
+    --clr-hover: #353535;
+    /* Primary Colors */
+    --clr-primary: #b69ed3;
+    /* Opacity */
+    --clr-primary-opacity-low: #b69ed399;
+    --clr-primary-opacity-high: #b69ed3bb;
+    /* Success and Danger */
+    --clr-danger: #f96767;
+    --clr-success: #12cc2f;
+    /* Other */
+    --clr-gray: #363636;
+    --button-box-shadow: inset 0 0 2px rgba(200, 200, 200, 0.3);
+    /* Toast styles */
+    --toastify-color-light: var(--clr-background-L3) !important;
+    --toastify-text-color-light: var(--clr-text-primary) !important;
+    --toastify-icon-color-success: var(--clr-success) !important;
+    --toastify-icon-color-error: var(--clr-danger) !important;
+    --toastify-icon-color-info: var(--clr-primary) !important;
+    --toastify-color-progress-success: var(--clr-success) !important;
+    --toastify-color-progress-error: var(--clr-danger) !important;
+    --toastify-color-progress-info: var(--clr-primary) !important;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background: var(--clr-background-L0);
+    overflow-x: hidden;
+    color: var(--clr-text-primary);
 }
 
 html {
@@ -89,12 +99,6 @@ html {
 
 ::placeholder {
 	color: var(--clr-text-secondary);
-}
-
-body {
-	background: var(--clr-background-L0);
-	overflow-x: hidden;
-	color: var(--clr-text-primary);
 }
 
 ul {
