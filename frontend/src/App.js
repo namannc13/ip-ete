@@ -8,7 +8,6 @@ import { setDarkMode } from './features/theme/themeSlice';
 import { getUserData } from './features/auth/authSlice';
 import Login from '../src/pages/Login/Login';
 import Register from '../src/pages/Register/Register';
-import Footer from './components/Footer/Footer';
 import Nav from './components/Nav/Nav';
 import ScrollToTop from './components/Tools/ScrollToTop';
 import ToastCloseButton from './components/Tools/ToastCloseButton';
@@ -110,7 +109,6 @@ function App() {
 						<Route path="*" element={<Navigate replace to="/" />} />
 					</Routes>
 				</div>
-				<Footer />
 			</Router>
 
 			<ToTop />

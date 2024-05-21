@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 import { useSelector, useDispatch } from 'react-redux';
-
 import BalanceInput from '../FormComponents/BalanceInput';
 import PercentInput from '../FormComponents/PercentInput';
 import DurationInput from '../FormComponents/DurationInput';
