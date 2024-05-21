@@ -209,7 +209,7 @@
 	padding: 1.5rem;
 	padding-top: 1rem;
 	border-radius: 4px;
-	border: solid 2px var(--clr-primary);
+	/* border: solid 2px var(--clr-primary); */
 	background-color: var(--clr-background-L1);
 	position: relative;
 	width: min(95%, 450px);

@@ -8,7 +8,7 @@ nav {
 	align-items: center;
 	background: var(--clr-background-L1);
 	color: var(--clr-text-primary);
-	border-bottom: solid 2px var(--clr-primary);
+	/* border-bottom: solid 2px var(--clr-primary); */
 	z-index: 100;
 }
 
@@ -110,7 +110,7 @@ nav img {
 	padding: 0.5rem;
 	transition: var(--fast-transition);
 	border-radius: 0 0 2px 2px;
-	border: 2px solid var(--clr-primary);
+	/* border: 2px solid var(--clr-primary); */
 }
 
 .user-options.show {
@@ -188,7 +188,7 @@ li.seperator {
 		transform: translateX(115%);
 		padding: 0.5rem;
 		margin: 0rem;
-		border-bottom: solid 2px var(--clr-primary);
+		/* border-bottom: solid 2px var(--clr-primary); */
 		border-left: solid 2px var(--clr-primary);
 		gap: 0;
 	}
