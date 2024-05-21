@@ -12,7 +12,6 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-// Routes
 const userRoutes = require('./routes/userRoutes');
 const compoundInterestCalculationRoutes = require('./routes/compoundInterestCalculationRoutes');
 const annualizedReturnCalculationRoutes = require('./routes/AnnualizedReturnCalculationRoutes');

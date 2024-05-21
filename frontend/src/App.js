@@ -31,7 +31,6 @@ function App() {
 	const [userLoaded, setUserLoaded] = useState(false);
 
 	useEffect(() => {
-		// On app init load user data
 		if (user?.token && !userLoaded) {
 			dispatch(getUserData());
 			setUserLoaded(true);
@@ -40,23 +39,18 @@ function App() {
 
 	useEffect(() => {
 		if (message) {
-			// Show login and register greeting messages in toasts.
 			toast.success(message);
 		}
 	}, [message]);
 
 	useEffect(() => {
 		if (user) {
-			// When a user is logged in set the darkmode and currency states to the corresponding values
-			// from "user.preferences".
 			dispatch(setDarkMode(user?.preferences.darkMode));
 			dispatch(setCurrency(user?.preferences.currency));
 		} else {
 			const localDarkMode = JSON.parse(localStorage.getItem('darkMode'));
 			const localCurrency = JSON.parse(localStorage.getItem('currency'));
 
-			// When a user is not logged in set the darkmode and currency states to the corresponding
-			// values from "localStorage".
 			if (localDarkMode) {
 				dispatch(setDarkMode(JSON.parse(localStorage.getItem('darkMode'))));
 			}
@@ -70,7 +64,6 @@ function App() {
 	useEffect(() => {
 		let body = document.body;
 		if (!user) {
-			// When user is not logged update the local storage value for darkmode
 			localStorage.setItem('darkMode', JSON.stringify(darkMode));
 			localStorage.setItem('currency', JSON.stringify(currency));
 		}
