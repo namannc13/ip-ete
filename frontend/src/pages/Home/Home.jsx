@@ -17,12 +17,6 @@ const Home = () => {
 		<>
 			{isLoading && <Spinner />}
 
-			<PageHeading
-				heading="Home"
-				secondaryHeading="Choose a Financial Calculator"
-				clamp={false}
-			/>
-
 			<div className="calculator-container">
 				{calculators.map((calculator, i) => (
 					<Link
