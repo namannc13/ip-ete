@@ -5,8 +5,16 @@
 	gap: 0.5rem;
 }
 
-.calculator-container > * {
-    flex: 0 0 calc(33.333% - 0.5rem);
+@media (min-width: 768px) { /* Tablet */
+    .calculator-container > * {
+        flex: 0 0 calc(33.333% - 0.5rem);
+    }
+}
+
+@media (min-width: 1024px) { /* Laptop and Desktop */
+    .calculator-container > * {
+        flex: 0 0 calc(33.333% - 0.5rem);
+    }
 }
 
 .featured-app-icon-container {
